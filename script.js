@@ -1,5 +1,6 @@
 //exercicio1
 let num 
+document.write("<br><br>")
 document.write(num)
 document.write("<br><br>")
 
@@ -75,3 +76,27 @@ else if (media <  5){
     document.write("O aluno está de recuperação")
     document.write("<br><br>")
 }
+
+//exercicio 7
+
+let nomehtml =prompt("digite seu nome")
+document.write("O nome do usuario é", nomehtml)
+document.write("<br><br>")
+let idadehtml =prompt("digite seu idade")
+document.write("a idade do usuario é", idadehtml)
+document.write("<br><br>")
+let cursohtml =prompt("digite seu curso")
+document.write("o curso do usuario é", cursohtml)
+document.write("<br><br>")
+let anohtml =prompt("digite o ano atual")
+document.write("O ano que o usuario está é", anohtml)
+document.write("<br><br>")
+
+
+
+
+
+
+
+
+
