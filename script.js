@@ -97,6 +97,15 @@ let palavra ="O lugar vira tecnologia"
 document.write(palavra.replace("lugar","mundo"))
 document.write("<br><br>")
 
+//exercicio 9
+
+let number = "123.45678"
+document.write("numero em forma string" + numero)
+document.write("<br><br>")
+let numberFloat = parseFloat(numero).toFixed(2)
+document.write("numero em float " +numeroFloat)
+
+
 
 
 
