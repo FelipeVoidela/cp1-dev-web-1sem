@@ -92,6 +92,12 @@ let anohtml =prompt("digite o ano atual")
 document.write("O ano que o usuario está é", anohtml)
 document.write("<br><br>")
 
+//exercicio 8
+let palavra ="O lugar vira tecnologia"
+document.write(palavra.replace("lugar","mundo"))
+document.write("<br><br>")
+
+
 
 
 
