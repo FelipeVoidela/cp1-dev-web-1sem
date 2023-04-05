@@ -57,4 +57,21 @@ if(senha2 == senha){
 
 //exercicio 6
 
-
+let nota1 =parseInt(prompt("Digte a primeira nota"))
+let nota2 =parseInt(prompt("Digte a segunda nota"))
+let nota3 =parseInt(prompt("Digte a terceira nota"))
+let nota4 =parseInt(prompt("Digte a quarta nota"))
+let media =((nota1 + nota2 + nota3 + nota4) / 4)
+document.write("a média é: ", media)
+document.write("<br><br>")
+if (media >= 6)  { 
+    document.write("O aluno está aprovado")
+    document.write("<br><br>")
+}
+else if (media <  5){
+    document.write("O aluno está de reprovado")
+    document.write("<br><br>")
+}else {
+    document.write("O aluno está de recuperação")
+    document.write("<br><br>")
+}
